@@ -11,6 +11,54 @@ Syriatel is a mobile network provider in Syria. It is one of the only two provid
 
 The aim of this project is to analyze customer minutes, calls, charge and other variables to predict whether a customer will churn doing business with Syriatel or not.
 
+**The Data**
+
+The data in this project comes from Kaggle. The dataset provides variables are their influence on customer churn. Therefore our target will be customer churn. 
+
+To help predict customer churn, we will be using the following explanatory variables:
+
+State: The state in which the customer resides.
+
+Account Length: The number of days the customer has been with the service.
+
+Area Code: The area code of the customer's phone number.
+
+Phone Number: The customer's phone number.
+
+International Plan: Whether the customer has an international calling plan (yes/no).
+
+Voice Mail Plan: Whether the customer has a voicemail plan (yes/no).
+
+Number of Voicemail Messages: The number of voicemail messages.
+
+Total Day Minutes: The total number of minutes the customer used during the day.
+
+Total Day Calls: The total number of calls the customer made during the day.
+
+Total Day Charge: The total charge for the daytime usage.
+
+Total Eve Minutes: The total number of minutes the customer used during the evening.
+
+Total Eve Calls: The total number of calls the customer made during the evening.
+
+Total Eve Charge: The total charge for the evening usage.
+
+Total Night Minutes: The total number of minutes the customer used during the night.
+
+Total Night Calls: The total number of calls the customer made during the night.
+
+Total Night Charge: The total charge for the nighttime usage.
+
+Total Intl Minutes: The total number of international minutes used.
+
+Total Intl Calls: The total number of international calls made.
+
+Total Intl Charge: The total charge for international usage.
+
+Customer Service Calls: The number of customer service calls made by the customer.
+
+Churn: Whether the customer churned or not (True/False or 1/0).
+
 **Distribution of Customer Churn**
 
 ![Pic1](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/920531c9-aa29-465f-9639-82e8165bccf6)
