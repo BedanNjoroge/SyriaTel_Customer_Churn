@@ -5,11 +5,11 @@
 
 **Business Problem**
 
-Syria Tel stakeholders would like to reduce money lost by customers who do not stick around for long.
+Syriatel is a mobile network provider in Syria. It is one of the only two providers in Syria. The stakeholders would like to reduce money lost by customers who do not stick around for long.
 
 **Business Objective**
 
-The aim of this project is to analyze customer minutes, calls, charge and other variables to predict whether a customer will churn doing business with Syria Tel or not.
+The aim of this project is to analyze customer minutes, calls, charge and other variables to predict whether a customer will churn doing business with Syriatel or not.
 
 **Distribution of Customer Churn**
 ![Pic1](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/920531c9-aa29-465f-9639-82e8165bccf6)
