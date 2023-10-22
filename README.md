@@ -12,6 +12,7 @@ Syriatel is a mobile network provider in Syria. It is one of the only two provid
 The aim of this project is to analyze customer minutes, calls, charge and other variables to predict whether a customer will churn doing business with Syriatel or not.
 
 **Distribution of Customer Churn**
+
 ![Pic1](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/920531c9-aa29-465f-9639-82e8165bccf6)
 
 14.49% of the customers would churn the business while 85.51% would not churn.
@@ -51,6 +52,7 @@ The Decision Tree Classifier has the highest accuracy score and F1 Score, and lo
 From the Decision Tree Classifier Feature Importance we can see that total day minutes, total int charge, total intl calls are the most important features for predicting customer churn.Therefore, the company should focus on these features to reduce the customer churn.
 
 **ROC and AUC**
+
 ![Pic9](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/0061118c-3160-4c74-a5cd-3d1e8d5c73bb)
 
 ![Pic10](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/6c3d983b-4bc1-4ade-96a2-71e2a59a24b1)
