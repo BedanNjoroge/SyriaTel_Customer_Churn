@@ -3,11 +3,12 @@
 ![image1](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/6895f25d-96f8-4ad9-b143-d6256b387c4e)
 
 
-
 **Business Problem**
+
 Syria Tel stakeholders would like to reduce money lost by customers who do not stick around for long.
 
 **Business Objective**
+
 The aim of this project is to analyze customer minutes, calls, charge and other variables to predict whether a customer will churn doing business with Syria Tel or not.
 
 **Distribution of Customer Churn**
@@ -60,8 +61,8 @@ From the Decision Tree Classifier Feature Importance we can see that total day m
 The Decision Tree model is performing relatively well with a higher AUC, indicating strong discriminatory power. The KNN model has a lower AUC but is still acceptable. After using XGBoost to increase our model performance the AUC increased a little from 0.890 to 0.897
 
 **Conclusion and Recommendations**
-Insights from EDA:
 
+Insights from EDA:
 High international calls correlate with lower churn.
 High day minutes and charges increase churn.
 More customer service calls lead to higher churn.
