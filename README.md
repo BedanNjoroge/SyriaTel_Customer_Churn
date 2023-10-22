@@ -9,7 +9,7 @@ Syriatel is a mobile network provider in Syria. It is one of the only two provid
 
 **Business Objective**
 
-The aim of this project is to analyze customer minutes, calls, charge and other variables to predict whether a customer will churn doing business with Syriatel or not.
+The aim of this project is to analyze customer minutes, calls, charges, and other variables to predict whether a customer will churn doing business with Syriatel or not.
 
 **The Data**
 
@@ -17,47 +17,47 @@ The data in this project comes from Kaggle. The dataset provides variables are t
 
 To help predict customer churn, we will be using the following explanatory variables:
 
-State: The state in which the customer resides.
+**State:** The state in which the customer resides.
 
-Account Length: The number of days the customer has been with the service.
+**Account Length:** The number of days the customer has been with the service.
 
-Area Code: The area code of the customer's phone number.
+**Area Code:** The area code of the customer's phone number.
 
-Phone Number: The customer's phone number.
+**Phone Number:** The customer's phone number.
 
-International Plan: Whether the customer has an international calling plan (yes/no).
+**International Plan:** Whether the customer has an international calling plan (yes/no).
 
-Voice Mail Plan: Whether the customer has a voicemail plan (yes/no).
+**Voice Mail Plan:** Whether the customer has a voicemail plan (yes/no).
 
-Number of Voicemail Messages: The number of voicemail messages.
+**Number of Voicemail Messages:** The number of voicemail messages.
 
-Total Day Minutes: The total number of minutes the customer used during the day.
+**Total Day Minutes:** The total number of minutes the customer used during the day.
 
-Total Day Calls: The total number of calls the customer made during the day.
+**Total Day Calls:** The total number of calls the customer made during the day.
 
-Total Day Charge: The total charge for the daytime usage.
+**Total Day Charge:** The total charge for the daytime usage.
 
-Total Eve Minutes: The total number of minutes the customer used during the evening.
+**Total Eve Minutes:** The total number of minutes the customer used during the evening.
 
-Total Eve Calls: The total number of calls the customer made during the evening.
+**Total Eve Calls:** The total number of calls the customer made during the evening.
 
-Total Eve Charge: The total charge for the evening usage.
+**Total Eve Charge:** The total charge for the evening usage.
 
-Total Night Minutes: The total number of minutes the customer used during the night.
+**Total Night Minutes:** The total number of minutes the customer used during the night.
 
-Total Night Calls: The total number of calls the customer made during the night.
+**Total Night Calls:** The total number of calls the customer made during the night.
 
-Total Night Charge: The total charge for the nighttime usage.
+**Total Night Charge:** The total charge for the nighttime usage.
 
-Total Intl Minutes: The total number of international minutes used.
+**Total Intl Minutes:** The total number of international minutes used.
 
-Total Intl Calls: The total number of international calls made.
+**Total Intl Calls:** The total number of international calls made.
 
-Total Intl Charge: The total charge for international usage.
+**Total Intl Charge:** The total charge for international usage.
 
-Customer Service Calls: The number of customer service calls made by the customer.
+**Customer Service Calls:** The number of customer service calls made by the customer.
 
-Churn: Whether the customer churned or not (True/False or 1/0).
+**Churn:** Whether the customer churned or not (True/False or 1/0).
 
 **Distribution of Customer Churn**
 
@@ -68,36 +68,36 @@ Churn: Whether the customer churned or not (True/False or 1/0).
 **Total Day Minutes Vs Churn**
 ![Pic2](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/f297ee2d-e29d-44a0-bb18-c5ef4cdc8299)
 
-Customers with high number of minutes used during the day are more likely to churn.
+Customers with a high number of minutes used during the day are more likely to churn.
 
 **Total Day Charge Vs Churn**
 ![Pic3](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/9d82ce6a-a1aa-4dfa-9483-5b4abb1a1131)
 
-Customers with a high charge on day time usage are more likely to churn. 
+Customers with a high charge on daytime usage are more likely to churn. 
 
 **Customer Service Calls Vs Churn**
 ![Pic4](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/083b6e85-bdb6-4a5b-b216-4be80fba6426)
 
-Customers who made more customer service calls are more likely to churn.
+Customers who make more customer service calls are more likely to churn.
 
 **Number of Voice Mails Vs Churn**
 ![Pic5](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/49f78584-80c1-4f61-b189-604fb8d1a121)
 
-Customers with high number of voice mails are less likely to churn.
+Customers with a high number of voicemails are less likely to churn.
 
-**Correlation HeatMap of relationship of all variables**
+**Correlation HeatMap of the relationship of all variables**
 ![Pic6](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/474ca558-a572-4c35-a259-9cc739b46c91)
 
 
 **Model Metrics**
 ![Pic7](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/7125ba03-1cd2-4a84-b865-a5eeca508f09)
 
-The Decision Tree Classifier has the highest accuracy score and F1 Score, and lowest mean squared error, mean absolute error. Therefore, the Decision Tree Classifier is a good fit for predicting the customer churn.
+The Decision Tree Classifier has the highest accuracy score and F1 Score, and the lowest mean squared error, mean absolute error. Therefore, the Decision Tree Classifier is a good fit for predicting customer churn.
 
 **Feature Importance**
 ![Pic8](https://github.com/BedanNjoroge/SyriaTel_Customer_Churn/assets/118848352/a4376484-9e4a-4578-8e0b-09129a7b0a45)
 
-From the Decision Tree Classifier Feature Importance we can see that total day minutes, total int charge, total intl calls are the most important features for predicting customer churn.Therefore, the company should focus on these features to reduce the customer churn.
+From the Decision Tree Classifier Feature Importance we can see that total day minutes, total int charge, total intl calls are the most important features for predicting customer churn. Therefore, the company should focus on these features to reduce customer churn.
 
 **ROC and AUC**
 
@@ -114,9 +114,9 @@ The Decision Tree model is performing relatively well with a higher AUC, indicat
 
 Insights from EDA:
 High international calls correlate with lower churn.
-High day minutes and charges increase churn.
+High-day minutes and charges increase churn.
 More customer service calls lead to higher churn.
-Customers with more voice mails are less likely to churn.
+Customers with more voicemails are less likely to churn.
 Recommendations:
 
 Promote international calls.
